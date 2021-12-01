@@ -12,7 +12,7 @@ class User_1 extends User {
     login() {
         let a = prompt('Введите ваш login: ');
         let b = prompt('Введите ваш password: ');
-        if (a == this.username && b >= this.password) {
+        if (a == this.username && b == this.password) {
             console.log("Добро пожаловать на сайт!!");
         } else { console.log("Доступ запрещен!!!") };
     }
